@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <div id="calculator">
+    <input type="text" id="display" readonly>
+    <div id="keys">
+      <button id="plus" onclick="changedisplay('+')">+</button>
+        <button id="seven" onclick="changedisplay('7')">7</button>
+        <button id="eight" onclick="changedisplay('8')">8</button>
+        <button onclick="changedisplay('9')">9</button><br>
+        <button onclick="changedisplay('-')">-</button>
+        <button onclick="changedisplay('4')">4</button>
+        <button onclick="changedisplay('5')">5</button>
+        <button onclick="changedisplay('6')">6</button><br>
+        <button onclick="changedisplay('*')">*</button>
+        <button onclick="changedisplay('1')">1</button>
+        <button onclick="changedisplay('2')">2</button>
+        <button onclick="changedisplay('3')">3</button><br>
+        <button onclick="changedisplay('/')">/</button>
+        <button onclick="changedisplay('0')">0</button>
+        <button onclick="changedisplay('.')">.</button>
+        <button onclick="operate()">=</button><br>
+        <button id="clear" onclick="removedata()">C</button>
+    </div>
+
+ </div>
+ <script src="script.js"></script>
+
+</body>
+</html>
