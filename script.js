@@ -42,7 +42,7 @@ function operate()
     catch(error)
     {
         
-        dis.value=error;
+        dis.value="Error";
 
 
     }
